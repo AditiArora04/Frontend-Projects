@@ -1,0 +1,63 @@
+* { margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #da627d;
+    text-align: center;
+}
+.container{
+    height: 70vh; /* 70% of view code height ,page(visible) hoga uska 70%container ke pass rhega*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.game{
+    height: 60vmin; /* dimension ka 60% */
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.7);
+    font-size: 8vmin;
+    /*color: #f8c38d;*/
+    background-color: #ffa5ab;
+}
+button:hover{
+    background-color:#fcbabf;
+}
+h1{
+    color: #450920;
+    font-size: 7vmin ;
+}
+#reset-btn,#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #118ab2;
+    color:white ;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 50px;
+} 
+#reset-btn:hover,#new-btn:hover{
+    background-color:#00b4d8;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+#msg{
+    color: #fbe7f0;
+    margin-bottom: 20px;
+    font-size:8vmin;
+    font-weight: 700;
+} 
+.hide{
+    display: none;
+}
