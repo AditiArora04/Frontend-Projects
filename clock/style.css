@@ -1,0 +1,53 @@
+ body{
+    background: url(wall.jpg) no-repeat ;
+    background-size: cover;
+} 
+#clock{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: url(Clock.jpg) no-repeat;
+    background-size: 100%;
+}
+#hr,#min,#sec{
+    position: absolute;
+    border-radius: 10px;
+}
+#hr{
+    width:2.5%;
+    height: 31%;
+    top: 20%;
+    left: 49.34%;
+    opacity: 0.8;
+    background-color:black;
+    transform-origin: bottom;
+}
+#min{
+    width:1.5%;
+    height: 40%;
+    top: 11%;
+    left: 49.8%;
+    opacity: 0.8;
+    background-color: black;
+    transform-origin: bottom;
+}#sec{
+    width:.5%;
+    height: 36%;
+    top: 15%;
+    left: 50.25%;
+    opacity: 0.8;
+    background-color:black ;
+    transform-origin: bottom;
+}
+ #nob{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 47.5%;
+    margin-top: 48%;
+    position: relative;
+}  
